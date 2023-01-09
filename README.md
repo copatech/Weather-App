@@ -7,14 +7,17 @@ such as the temperature, wind speed, humidity, pressure and a description of the
 The program displays the current time and weather data in the GUI. The user can enter a location in the search box and press
 
 <h3>Python Libraries Used</h3>
--  TKINTER 
--  GEOPY
+
+- TKINTER 
+
+- GEOPY
+
 -  DATETIME
+
+- GEOPY
+
 -  PYTZ
 
+---
+
 Python 3.11
-- I’m working as a Software Engineer and contributing to frontend and backend for building web applications.
-
-- Exploring Technical Content Writing.
-
--  In my free time, I solve problems on GeeksforGeeks and read tech articles.
