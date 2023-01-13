@@ -8,13 +8,7 @@ import requests
 import pytz
 
 
-main = Tk()
-main.title("Weather App")
-main.geometry("900x500+300+200")
-main.resizable(False, False)
-
-
-def get_weather():
+def get_weather(event=None):
     try:
         city = textfield.get()
         geolocator = Nominatim(user_agent="geoapiExercises")
@@ -55,6 +49,12 @@ def get_weather():
         messagebox.showerror("Weather App", "Invalid Location!!!")
 
 
+# main window
+main = Tk()
+main.title("Weather App")
+main.geometry("900x500+300+200")
+main.resizable(False, False)
+
 # Search box
 Search_image = PhotoImage(file="search.png")
 myimage = Label(image=Search_image)
@@ -82,6 +82,7 @@ myimage_icon = Button(
     command=get_weather,
 )
 myimage_icon.place(x=400, y=34)
+
 
 # Logo
 Logo_image = PhotoImage(file="logo.png")
