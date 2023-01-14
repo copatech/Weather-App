@@ -13,6 +13,9 @@ main.title("Weather App")
 main.geometry("900x500+300+200")
 main.resizable(False, False)
 
+# Top window pane icon
+image_icon = PhotoImage(file="logo.png")
+main.iconphoto(False, image_icon)
 
 def get_weather():
     try:
