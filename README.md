@@ -21,3 +21,11 @@ The program displays the current time and weather data in the GUI. The user can 
 ---
 
 Python 3.11
+
+
+![Weather-app](https://user-images.githubusercontent.com/41125224/222807032-454d3b69-da26-4680-8def-cbad80f4692e.jpg)
+
+---
+
+![Weather-app2](https://user-images.githubusercontent.com/41125224/222807076-41830c5d-0880-49a6-a274-a59898b06588.jpg)
+
